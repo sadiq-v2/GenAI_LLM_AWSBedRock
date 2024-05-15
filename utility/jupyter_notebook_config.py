@@ -3,7 +3,7 @@ c.NotebookApp.default_url = '/lab'
 
 # Set a password to access the notebook server
 from notebook.auth import passwd
-c.NotebookApp.password = passwd('xxxxxxxx')
+c.NotebookApp.password = passwd('password')
 
 # Allow access to the notebook server from remote IP addresses
 c.NotebookApp.ip = '0.0.0.0'
